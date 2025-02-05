@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cornflowerblue;
+}
+
+header {
+    background-color: rgb(5, 65, 155);
+    width: 100vw;
+    height: 100px;
+}
+
+header > h1 {
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    padding-top: 30px;
+    color: white;
+    font-size: 40px;
+}
+
+main {
+    margin: 50px;
+    background-image: url('../assets/home.jpg');
+    padding: 180px;
+    border-radius: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.397);
+}
+
+main > section#first > p {
+    font-size: larger;
+}
+
+main > section#first > p#resposta {
+    padding-top: 10px;
+}
+
+main > section#first > p#dizer {
+    color: white;
+    background-color: darkblue;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size:larger;
+    border: 2px solid darkblue;
+    height: 40px;
+    margin: 40px;
+    border-radius: 50px;
+}
+
+main > section#first > p > input {
+    margin-top: 10px;
+    width: 300px;
+    height: 35px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+main > section#first {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background-color: whitesmoke;
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+    padding-top:50px;
+}
+
+main > section#first > input#btn {
+    margin: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+main > section#first > input#btn:hover {
+    padding: 10px;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 50px;
+    font-weight: bold;
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+
+main > section#second {
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-top: 80px;
+    background-color: whitesmoke;
+    width: 500px;
+    height: 300px;
+    margin:auto;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 150px;
+}
+
+footer {
+    color: white;
+    background-color: rgb(3, 26, 70);
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+}
